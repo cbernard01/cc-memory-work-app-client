@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cc-memory-work-app-client.iml" filepath="$PROJECT_DIR$/.idea/cc-memory-work-app-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cc-memory-work-app-mock-server/.idea/cc-memory-work-app-mock-server.iml" filepath="$PROJECT_DIR$/../cc-memory-work-app-mock-server/.idea/cc-memory-work-app-mock-server.iml" />
     </modules>
   </component>
 </project>
