@@ -1,11 +1,10 @@
 import React from "react";
 import {Route, Router, Switch} from "react-router-dom";
 import history from "../utils/history";
-import Header from "./default/Header";
+import Header from "./common/Header";
 
-import Home from "./default/Home";
+import Home from "./common/default/Home";
 import TaskList from "./tasks/TaskList";
-import MathList from "./subjects/math";
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Switch>
           <Route path={"/"} exact component={Home}/>
           <Route path={"/tasks"} exact component={TaskList}/>
-          <Route path={"/subject/math/:id"} exact component={MathList}/>
         </Switch>
       </Router>
 
